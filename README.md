@@ -33,3 +33,9 @@ yarn lint-staged
 
 
 ```
+
+Run yarn when use git pull and check there is new libs
+```
+npx husky add .husky/post-merge 'yarn'
+
+```
